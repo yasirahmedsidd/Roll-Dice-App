@@ -29,8 +29,6 @@ const RollDice = () => {
         <Die face={dies.die2} wobble={wobble} />
       </div>
       <button className="roll-btn" onClick={roll} disabled={isRolling}>
-        {console.log(dies)}
-
         {isRolling ? "Rolling..." : "Roll Dice!"}
       </button>
     </div>
